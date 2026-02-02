@@ -35,7 +35,6 @@ const Checkout = () => {
     setStatus('Enviando...');
     
     try {
-      // El puerto 3001 es donde estará tu backend de Node
       const response = await axios.post('http://localhost:3001/api/confirmar', formData);
       setStatus('¡Éxito! Revisa tu correo.');
     } catch (error) {

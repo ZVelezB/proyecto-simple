@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    environment:
+      # Aquí pones tus credenciales de Mailtrap
+      - EMAIL_USER=tu_usuario_de_mailtrap
+      - EMAIL_PASS=tu_password_de_mailtrap
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
