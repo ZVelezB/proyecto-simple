@@ -17,6 +17,6 @@ Este es un proyecto sencillo de integraci√≥n que demuestra un flujo de compra b√
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/tu-repo.git](https://github.com/tu-usuario/tu-repo.git)
+   git clone [https://github.com/ZVelezB/proyecto-simple.git](https://github.com/ZVelezB/proyecto-simple.git)
    cd tu-repo
    ```
